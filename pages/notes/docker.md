@@ -39,11 +39,11 @@ docker rm <container_name>
 ```
 #### Docker Compose Up  
 定義ファイルに従って、コンテナ、ボリューム、ネットワークを作成実行するイメージが存在しない場合は、まずイメージを作成する。既にイメージが存在する場合はコンテナの作成から行う。  
--d: バックグランド実行（デーモン）('''docker-compose.yml'''があるディレクトリにて)
-'''
+-d: バックグランド実行（デーモン）(```docker-compose.yml```があるディレクトリにて)
+```
 docker-compose up -d
-'''
--f: '''docker-compose.yml''' のパスを指定
-'''
+```
+-f: ```docker-compose.yml``` のパスを指定
+```
 docker compose -f </hoge/docker-compose.yml> up -d
-'''
+```
