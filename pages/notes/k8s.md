@@ -14,7 +14,7 @@ podの確認
 ```
 kubectl get pod
 ```
-podのlogを確認--tail: 最新のxx件を表示--f: リアルタイムフォロー
+podのlogを確認--tail: 最新のxx件を表示--f: リアルタイムフォロー
 ```
 kubectl logs --tail=20 [pod-name]
 ```
@@ -26,7 +26,7 @@ kubectl -h
 ## k9s
 install
 ```
-sudo apt updatesudo apt-get install build-essential procps curl file git
+sudo apt updatesudo apt-get install build-essential procps curl file git
 ```
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
