@@ -14,7 +14,9 @@ podの確認
 ```
 kubectl get pod
 ```
-podのlogを確認--tail: 最新のxx件を表示--f: リアルタイムフォロー
+podのlogを確認  
+--tail: 最新のxx件を表示  
+--f: リアルタイムフォロー
 ```
 kubectl logs --tail=20 [pod-name]
 ```
