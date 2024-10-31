@@ -1,4 +1,4 @@
-# Symbols
+## Symbols
 
 マイナス | 例 -1 
 ```
