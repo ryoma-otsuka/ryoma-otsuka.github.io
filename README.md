@@ -1,13 +1,20 @@
+
+### Works
 [<img src="/images/google_scholar.png" width="30">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)&nbsp;&nbsp; [<img src="/images/researchgate.png" width="30">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)&nbsp;&nbsp; [<img src="/images/research_map.png" width="90">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)&nbsp;&nbsp;
 
-[CV](docs/cv_en_20240513.pdf)  
+### CV
+[CV](docs/cv_en_jp_20240513.pdf)  
+
+### Notes
 [notes](pages/notes.md)  
+    
 <!--
 [photography](pages/photography.md)
 -->
 
 ### Current position 
-Graduate School of Information Science and Technology, Osaka University (Specially Appointed Assistant Professor)    
+Graduate School of Information Science and Technology, Osaka University    
+(Specially Appointed Assistant Professor)    
 大阪大学情報科学研究科 マルチメディア工学専攻 特任助教    
 
 ### Keywords
