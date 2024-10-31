@@ -2,8 +2,8 @@
 
 ### 隠しファイル
 .gitignore    
-https://github.com/github/gitignore    
-https://www.toptal.com/developers/gitignore
+[https://github.com/github/gitignore ](https://github.com/github/gitignore )   
+[https://www.toptal.com/developers/gitignore](https://www.toptal.com/developers/gitignore)
 
 .gitkeep    
 空のディレクトリを残す    
