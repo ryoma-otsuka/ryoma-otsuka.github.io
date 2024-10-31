@@ -1,16 +1,9 @@
 
-### Works
+# Ryoma Otsuka 大塚 亮真
 [<img src="/images/google_scholar.png" width="30">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)&nbsp;&nbsp; [<img src="/images/researchgate.png" width="30">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)&nbsp;&nbsp; [<img src="/images/research_map.png" width="90">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)&nbsp;&nbsp;
 
-### CV
 [CV](docs/cv_en_jp_20240513.pdf)  
-
-### Notes
-[notes](pages/notes.md)  
-    
-<!--
-[photography](pages/photography.md)
--->
+[notes](pages/notes.md) 
 
 ### Current position 
 Graduate School of Information Science and Technology, Osaka University    
