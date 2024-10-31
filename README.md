@@ -11,4 +11,5 @@
   - [k8s](pages/notes/k8s.md)
   - [linux](pages/notes/linux.md)
   - [colors](pages/notes/colors.md) 
-  - [symbols](pages/notes/symbols.md) 
+  - [symbols](pages/notes/symbols.md)
+  - [latex](pages/notes/latex.md) 
