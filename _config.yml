@@ -1,18 +1,3 @@
-# theme: minima
-# theme: jekyll-theme-minimal
 title: Ryoma Otsuka
-# description: TBA
-# logo: /images/dokudami_gorilla_blue.png
-# show_downloads: false
-
-# minima:
-#   date_format: "%Y-%m-%d"
-
-# Minima: custom header links
-# header_pages:
-#   - pages/frontpage.md
-#   - pages/about.md
-#   - pages/notes.md
-
-# include:
-#     - pages
+description: TBA
+logo: /images/dokudami_gorilla_blue.png
