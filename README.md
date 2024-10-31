@@ -1,8 +1,7 @@
-## Links
-[<img src="/images/google_scholar.png" width="50">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)
+[<img src="/images/google_scholar.png" width="30">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)&nbsp;&nbsp; [<img src="/images/researchgate.png" width="30">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)&nbsp;&nbsp; [<img src="/images/research_map.png" width="90">](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)&nbsp;&nbsp;
 
-[link to my ABOUT page](pages/about.md)
-
-## Profile
-
-##
+[CV](docs/cv.pdf)  
+[notes](pages/notes.md)  
+<!--
+[photography](pages/photography.md)
+-->
