@@ -1,14 +1,14 @@
 ## Kubernetes (k8s)
-kubernetes: https://kubernetes.io/ja/  
-kubectl: https://kubernetes.io/docs/reference/kubectl/  
+kubernetes: [https://kubernetes.io/ja/](https://kubernetes.io/ja/)  
+kubectl: [https://kubernetes.io/docs/reference/kubectl/](https://kubernetes.io/docs/reference/kubectl/)  
 
 Manifest File の作成ツールの実行
 ```
-python cafe_toolkit.py -p ex00/params-xx.yaml -t ex00/ex00-dcl.yaml -s xx-seed-
+python cafe_toolkit.py -p ex00/params-xx.yaml -t ex00/ex00-dcl.yaml -s xx-seed-0
 ```
 Manifest Fileの実行
 ```
-kubectl apply -f yaml/ex00-dcl-om-seed-0.yaml
+kubectl apply -f yaml/ex00-dcl-xx-seed-0.yaml
 ```
 podの確認
 ```
