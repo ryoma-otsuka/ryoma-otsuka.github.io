@@ -6,10 +6,9 @@
 
 - [Curriculum Vitae (CV)](docs/cv_en_jp_20240513.pdf)  
 - Notes
-  - [colors](pages/notes/colors.md) 
-  - [symbols](pages/notes/symbols.md) 
   - [git](pages/notes/git.md)
   - [docker](pages/notes/docker.md)
   - [k8s](pages/notes/k8s.md)
   - [linux](pages/notes/linux.md)
-  - TBA
+  - [colors](pages/notes/colors.md) 
+  - [symbols](pages/notes/symbols.md) 
