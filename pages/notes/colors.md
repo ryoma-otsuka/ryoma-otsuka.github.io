@@ -1,7 +1,7 @@
 ## Colors for figures
 
 Websites that are helpful when choosing colors for figures
-Vis Palette: https://projects.susielu.com/viz-palette
+Vis Palette: [https://projects.susielu.com/viz-palette](https://projects.susielu.com/viz-palette)
 
 ### David Nichols's 4 colors:   
 ```
