@@ -121,8 +121,14 @@ git push origin tag-name
 git rm -f <filename>
 ```
 ファイル名の変更
-```git mv <old_file> <new_file>```
+```
+git mv <old_file> <new_file>
+```
 ディレクトリ名を変更
-```git mv <old_directory/> <new_direcotry/>```
+```
+git mv <old_directory/> <new_direcotry/>
+```
 直前のプッシュの取り消し
-```git push -f```
+```
+git push -f
+```
