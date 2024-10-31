@@ -15,4 +15,4 @@ header_pages:
   - pages/notes.md
 
 include:
-    - _pages
+    - pages
