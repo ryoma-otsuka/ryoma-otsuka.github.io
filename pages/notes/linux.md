@@ -5,6 +5,7 @@ Ubuntu のバージョン確認
 cat /etc/lsb-release
 ```
 
+よく使うコマンド一覧
 | Linux | Windows | Description |
 | ----- | ------- | ----------- |
 | cd <path>| cd <path> | ディレクトリの移動 |
