@@ -1,5 +1,10 @@
 ## Linux
 
+Ubuntu のバージョン確認
+```
+cat /etc/lsb-release
+```
+
 | Linux | Windows | Description |
 | ----- | ------- | ----------- |
 | cd <path>| cd <path> | ディレクトリの移動 |
