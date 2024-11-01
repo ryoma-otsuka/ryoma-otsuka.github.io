@@ -1,135 +1,184 @@
-## Git & GitHub
+# Git & GitHub
+- [Commands](#commands)
+	- [Setup](#setup)
+	- [Log](#log)
+	- [Branch](#branch)
+	- [Dev](#dev)
+	- [Cancell](#cancell)
+	- [Tag](#tag)
+	- [Others](#others)
 
-### 隠しファイル
-.gitignore    
-[https://github.com/github/gitignore ](https://github.com/github/gitignore )   
-[https://www.toptal.com/developers/gitignore](https://www.toptal.com/developers/gitignore)
+## Commands
 
-.gitkeep    
-空のディレクトリを残す    
+### Setup
+初期化（.gitの新規作成）    
+```
+git init
+```
 
-### Git Commands
-
-#### 初期化（.gitの新規作成）    
-```git init```
-
-#### ユーザー名とアドレスの登録    
+ユーザー名とアドレスの登録    
 ```
 git config --global user.name "XXX"
 git config --global user.email "XXX@xxx.com"
 ```
 
-#### リモートリポジトリのクローン
+リモートリポジトリのクローン
 ```
 git clone <https://github.com/XXX/XXX.git>
 ```
-#### ディレクトリ名を指定してリモートリポジトリをクローン
+
+ディレクトリ名を指定してリモートリポジトリをクローン
 ```
 git clone <https://github.com/XXX/XXX.git> <dir-name>
 ```
-#### リモートリポジトリを追加（originという名前に設定する）
+
+リモートリポジトリを追加（originという名前に設定する）
 ```
 git remote add origin <https://github.com/XXX/XXX.git>
 ```
-#### リモートリポジトリの確認
+
+リモートリポジトリの確認
 ```
 git remote -v
 ```
-#### リモートリポジトリの変更
+
+リモートリポジトリの変更
 ```
 git remote set-url origin <new URL>
 ```
-#### 現在のブランチの状態を確認
-```git status```
-#### ログの確認
-```git log```
-#### ログを一行ずつ表示
-```git log --oneline```
-#### ブランチの一覧を確認
+
+## Log
+現在のブランチの状態を確認
+```
+git status
+```
+
+ログの確認
+```
+git log
+```
+
+ログを一行ずつ表示
+```
+git log --oneline
+```
+
+## Branch
+ブランチの一覧を確認
 ```
 git branch
 ```
-#### 新規ブランチの作成
-```
-git branch <new-branch-name>
-```
-#### ブランチ名の変更
-```
-git branch -m <old-branch-name> <new-banch-name>
-```
-#### ブランチの削除
-```
-git branch -d <branch name>
-```
-#### ブランチの移動
+
+ブランチの移動
 ```
 git checkout <branch name>
 ```
-#### フェッチ
+
+新規ブランチの作成
 ```
-git fetch
+git branch <new-branch-name>
 ```
-#### ブランチを指定してコメント付きでマージ
+
+ブランチ名の変更
 ```
-git merge <branch-name> -m "comment"
+git branch -m <old-branch-name> <new-banch-name>
 ```
-#### ブランチを指定してプル （fetch + merge）
+
+ブランチの削除
 ```
-git pull origin <branch-name>
+git branch -d <branch name>
 ```
-#### すべての変更をステージ
+
+## Dev
+現在のブランチの状態を確認
+```
+git status
+```
+
+すべての変更をステージ
 ```
 git add --all
 ```
-#### 特定の変更だけ指定してステージ
+
+特定の変更だけ指定してステージ
 ```
 git add <filename>
 ```
-#### ステージした全ファイルをを元に戻す
-```
-git restore --staged .
-```
-#### コミット（コメント付き）
+
+コミット（コメント付き）
 ```
 git commit -m "comment"
 ```
-#### 直前のコミットの取り消し
-```
-git reset --soft "HEAD^"
-```
-#### ブランチを指定してpush
+
+ブランチを指定してpush
 ```
 git push origin <branch name>
 ```
-#### 直前のプッシュの取り消し
+
+フェッチ
+```
+git fetch
+```
+
+ブランチを指定してコメント付きでマージ
+```
+git merge <branch-name> -m "comment"
+```
+
+ブランチを指定してプル （fetch + merge）
+```
+git pull origin <branch-name>
+```
+
+## Cancell
+ステージした全ファイルをを元に戻す
+```
+git restore --staged .
+```
+
+直前のコミットの取り消し（Windows）
+```
+git reset --soft "HEAD^"
+```
+
+直前のコミットの取り消し（Mac）
+```
+git reset --soft HEAD^
+```
+
+直前のプッシュの取り消し
 ```
 git push -f
 ```
-#### タグの確認
+
+## Tag
+タグの確認
 ```
 git tag
 ```
-#### タグ付け（コメント付き）
+
+タグ付け（コメント付き）
 ```
 git tag -a tag-name -m 'tag comment'
 ```
-#### 指定したtagをpush
+
+指定したtagをpush
 ```
 git push origin tag-name
 ```
-#### ファイルの削除
+
+## Others
+ファイルの削除
 ```
 git rm -f <filename>
 ```
-#### ファイル名の変更
+
+ファイル名の変更
 ```
 git mv <old_file> <new_file>
 ```
-#### ディレクトリ名を変更
+
+ディレクトリ名を変更
 ```
 git mv <old_directory/> <new_direcotry/>
-```
-#### 直前のプッシュの取り消し
-```
-git push -f
 ```

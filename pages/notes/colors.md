@@ -1,7 +1,10 @@
-## Colors for figures
+# Colors
 
+## Websites
 Websites that are helpful when choosing colors for figures
 Vis Palette: [https://projects.susielu.com/viz-palette](https://projects.susielu.com/viz-palette)
+
+## Color palettes
 
 ### David Nichols's 4 colors:   
 ```
@@ -33,3 +36,4 @@ Vis Palette: [https://projects.susielu.com/viz-palette](https://projects.susielu
 ["#f08080", "#4682b4", "#468189", "#317589", "#67a2a0", "#5ab5b2", "#73b8e2"]
 ```
 [Vis Palette](https://projects.susielu.com/viz-palette?colors=[%22#F08080%22,%22#4682B4%22,%22#468189%22,%22#317589%22,%22#67A2A0%22,%22#5AB5B2%22,%22#73B8E2%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22)
+

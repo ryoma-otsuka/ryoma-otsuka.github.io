@@ -1,6 +1,6 @@
-## LaTex
+# LaTex
 
-### Templates
+## Templates
 - simple paper templates
   - main + SI (for preprint)
   - SI (for review or final version)     

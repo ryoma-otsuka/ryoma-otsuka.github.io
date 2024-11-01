@@ -1,12 +1,12 @@
-## Linux
+# Linux
 
-### Ubuntu
+## Ubuntu
 Ubuntu のバージョン確認
 ```
 cat /etc/lsb-release
 ```
 
-### よく使うコマンド一覧
+## よく使うコマンド一覧
 | Linux | Windows | Description |
 | :---- | :------ | :---------- |
 | cd <path>| cd <path> | ディレクトリの移動 |
@@ -18,4 +18,3 @@ cat /etc/lsb-release
 | cp /hoge/hoge.txt /hoge/hoge/hoge.txt| copy /hoge/hoge.txt /hoge/hoge/hoge.txt| ファイルのコピー |
 | mv -i /hoge/hoge.txt /hoge/hoge/hoge.txt | -| 上書き確認オプション付きのファイルの移動 | 
 | df -h | TBA| ディスクの使用状況の確認 | 
-| Linux | Windows | Description | 
