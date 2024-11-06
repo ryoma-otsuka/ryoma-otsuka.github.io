@@ -1,0 +1,11 @@
+header img {
+    border-radius: 50%;
+}
+
+header p {
+    text-align: center;
+}
+
+header p.view {
+    text-align: left;
+}
