@@ -4,7 +4,8 @@
 [<img src="/images/icons/researchgate.png" width="30">](https://www.researchgate.net/profile/Ryoma-Otsuka-2)&nbsp;&nbsp;
 [<img src="/images/icons/research_map.png" width="90">](https://researchmap.jp/ryoma_otsuka)&nbsp;&nbsp;
 
-- [Curriculum Vitae (CV)](docs/cv/cv_en_jp.pdf)  
+
+- [Curriculum Vitae (CV)](docs/cv/cv_en_jp.pdf)
 - Notes
   - [git](pages/notes/git.md)
   - [docker](pages/notes/docker.md)
@@ -12,5 +13,6 @@
   - [linux](pages/notes/linux.md)
   - [env](pages/notes/env.md)
   - [colors](pages/notes/colors.md) 
-  - [symbols](pages/notes/symbols.md)
+  - [writing](pages/notes/writing.md)
   - [latex](pages/notes/latex.md) 
+  <!-- - [books](pages/notes/books.md) -->
