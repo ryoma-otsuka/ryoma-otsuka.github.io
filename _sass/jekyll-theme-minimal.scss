@@ -294,42 +294,41 @@ footer {
 }
 
 // add by RO
+.title-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 10px;
+}
 
-// .title-container {
-//   display: flex;
-//   justify-content: center; 
-//   align-items: center;
-//   height: 10px;
-// }
+.logo-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100px;
+}
 
-// .logo-container {
-//   display: flex;
-//   justify-content: center; 
-//   align-items: center;
-//   height: 100px;
-// }
+.description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
 
-// .description-container {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 50px;
-// }
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 
-// .view {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   gap: 10px;
-// }
+.icon-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  // justify-content: space-around;
+}
 
-// .icon-list {
-//   list-style: none;
-//   padding: 0;
-//   display: flex;
-//   // justify-content: space-around;
-// }
-
-// .icon-list li {
-//   margin: 0 7px;
-// }
+.icon-list li {
+  margin: 0 7px;
+}

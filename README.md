@@ -1,3 +1,7 @@
+# Memo
+Just ignore warning message about @import when you do debugging on local environment. Changing @import to @use will remove the warning messages but destroy the style on GitHub pages.
+
+
 # The Minimal theme
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
