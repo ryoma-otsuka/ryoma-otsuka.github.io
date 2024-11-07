@@ -1,13 +1,9 @@
----
-layout: default
-title: Home
-css: index.css
----
+<!-- ## <span class="blue-text">大塚 亮真</span> -->
 
-## <span class="blue-text">大塚 亮真</span>
-
+### 大塚 亮真
 <img src="/images/icons/dokudami_gorilla_lightblue_square.png" width="200">
-バイオロギングと機械学習
+
+バイオロギングデータと機械学習を用いた動物の行動認識技術についての研究とAI搭載型のバイオロギングデバイスのソフトウェア開発をしています。
 
 - [Publications](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)
 - [CV](docs/cv/cv_en_jp.pdf)

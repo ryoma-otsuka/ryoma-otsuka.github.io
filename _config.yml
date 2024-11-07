@@ -1,10 +1,13 @@
 title: Ryoma Otsuka
-description:
-baseurl: "/"
-url: "https://ryoma-otsuka.github.io"
-theme: jekyll-theme-primer
-
 markdown: GFM
+
+# description:
+# baseurl: "/"
+# url: "https://ryoma-otsuka.github.io"
+# 
+# markdown: kramdown
+# kramdown:
+#   input: GFM  # Enable GitHub Flavored Markdown
 
 # defaults:
 #   - scope:
