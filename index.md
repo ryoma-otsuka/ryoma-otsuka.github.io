@@ -1,9 +1,5 @@
-<!-- ## <span class="blue-text">Ryoma Otsuka</span> -->
-
-<img src="/images/icons/dokudami_gorilla_lightblue_square.png" width="200">
-
-I study animal behaviour recognition techniques using bio-logging data and machine learning.  
-I also develop software of bio-logging devices with AI.
+### Ryoma Otsuka
+I study animal behaviour recognition techniques using bio-logging data and machine learning. I also develop software of bio-logging devices with AI.
 
 - [Publications](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)
 - [CV](docs/cv/cv_en_jp.pdf)

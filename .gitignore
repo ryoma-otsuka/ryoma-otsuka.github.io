@@ -2,3 +2,5 @@
 /docs/cv/*.docx
 /docs/*.docx
 /docs/*.png
+
+Gemfile.lock
