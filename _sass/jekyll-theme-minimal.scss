@@ -1,10 +1,12 @@
-@import "fonts";
-@import "rouge-github";
+// @import "fonts";
+// @import "rouge-github";
+@use "fonts";
+@use "rouge-github";
 
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
@@ -36,12 +38,18 @@ h3, h4, h5, h6 {
 
 a {
   color:#267CB9;
+  // color:#1E88E5;
+  // color:#4CAF50;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
-  font-weight: bold;
+  // color:#069;
+  // color:#4CAF50;
+  // color:#FF5722;
+  color:#E91E63;
+  // color:#D81B60;
+  // font-weight: bold;
 }
 
 a small {
@@ -283,4 +291,45 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+// add by RO
+
+.title-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 10px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100px;
+}
+
+.description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.view {
+  display: flex;  /* Flexboxを使用 */
+  justify-content: center;  /* 横方向に中央揃え */
+  align-items: center;  /* 縦方向に中央揃え（高さがある場合） */
+  gap: 10px;  /* アイコンの間隔を指定 */
+}
+
+.icon-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  // justify-content: space-around;
+}
+
+.icon-list li {
+  margin: 0 7px;
 }
