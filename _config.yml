@@ -4,9 +4,9 @@ description: A post-doc researcher.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
-# markdown: GFM
+markdown: GFM
 
 # For local environment debugging
 # url: "http://localhost:4000"
 # baseurl: ""
-markdown: kramdown
+# markdown: kramdown
