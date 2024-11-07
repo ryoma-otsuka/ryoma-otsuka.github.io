@@ -18,7 +18,7 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" width="36" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -28,7 +28,23 @@
         {% endif %}
 
         {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        <!-- <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p> -->
+        <p class="view">
+          <!-- GitHub Profile link -->
+          <a href="{{ site.github.owner_url }}">
+              <img src="{{ site.baseurl }}/images/icons/github.png" alt="GitHub Profile" width="24" height="24">
+          </a>
+      
+          <!-- Google Scholar link -->
+          <a href="https://scholar.google.com/citations?user=YOUR_USER_ID" target="_blank">
+              <img src="{{ site.baseurl }}/images/icons/google_scholar.png" alt="Google Scholar Profile" width="24" height="24">
+          </a>
+      
+          <!-- CV link -->
+          <a href="{{ site.baseurl }}/assets/your-cv.pdf" target="_blank">
+              <img src="{{ site.baseurl }}/images/icons/pdf.png" alt="CV" width="24" height="24">
+          </a>
+        </p>
         {% endif %}
 
         {% if site.show_downloads %}
