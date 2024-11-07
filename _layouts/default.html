@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" type="image/png" href="images/icons/dokudami_gorilla_blue_round.png">
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -18,14 +18,14 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" width="36" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" width="67" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
+        <!-- {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+        {% endif %} -->
 
         {% if site.github.is_user_page %}
         <!-- <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p> -->
@@ -36,12 +36,17 @@
           </a>
       
           <!-- Google Scholar link -->
-          <a href="https://scholar.google.com/citations?user=YOUR_USER_ID" target="_blank">
+          <a href="https://scholar.google.com/citations?user=TzrgGqEAAAAJ&hl=en" target="_blank">
               <img src="{{ site.baseurl }}/images/icons/google_scholar.png" alt="Google Scholar Profile" width="24" height="24">
           </a>
-      
+          
+          <!-- ORCiD link -->
+          <a href="https://orcid.org/0000-0002-5147-1916" target="_blank">
+            <img src="{{ site.baseurl }}/images/icons/orcid.png" alt="ORCiD" width="24" height="24">
+          </a>
+
           <!-- CV link -->
-          <a href="{{ site.baseurl }}/assets/your-cv.pdf" target="_blank">
+          <a href="{{ site.baseurl }}/docs/cv/cv_en_jp.pdf" target="_blank">
               <img src="{{ site.baseurl }}/images/icons/pdf.png" alt="CV" width="24" height="24">
           </a>
         </p>

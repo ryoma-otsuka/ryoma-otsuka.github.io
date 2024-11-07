@@ -1,6 +1,7 @@
 title: Ryoma Otsuka
 logo: /images/icons/dokudami_gorilla_lightblue_square.png
 description: Minimal is a theme for GitHub Pages.
+is_user_page: true
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
