@@ -5,7 +5,7 @@
 - [Publications](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)
 - [CV](docs/cv/cv_en_jp.pdf)
 - [Notes](pages/notes/notes.md)
-- [English](index.md)
+- [English](../index.md)
 
 <!-- <be>
 <br> 

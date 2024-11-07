@@ -4,7 +4,7 @@ I study animal behaviour recognition techniques using bio-logging data and machi
 - [Publications](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)
 - [CV](docs/cv/cv_en_jp.pdf)
 - [Notes](pages/notes/notes.md)
-- [日本語](index_jp.md)
+- [日本語](pages/index_jp.md)
 
 <!-- <be>
 <br>  -->
