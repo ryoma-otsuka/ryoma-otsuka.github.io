@@ -317,10 +317,10 @@ footer {
 }
 
 .view {
-  display: flex;  /* Flexboxを使用 */
-  justify-content: center;  /* 横方向に中央揃え */
-  align-items: center;  /* 縦方向に中央揃え（高さがある場合） */
-  gap: 10px;  /* アイコンの間隔を指定 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .icon-list {
