@@ -1,0 +1,17 @@
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Pages Example</title>
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.css">
+
+    <!-- ページごとに異なる CSS を読み込む -->
+    {% if page.css %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ page.css }}">
+    {% endif %}
+    <!-- {% if page.url == "/about/" or page.url == "/contact/" %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/about-contact.css">
+    {% endif %} -->
+
+    <!-- Common CSS -->
+    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.css"> -->
+</head>

@@ -1,4 +1,10 @@
-# <span class="blue-text">Ryoma Otsuka</span>
+---
+layout: default
+title: Home
+css: index.css
+---
+
+## <span class="blue-text">Ryoma Otsuka</span>
 
 <img src="/images/icons/dokudami_gorilla_lightblue_square.png" width="200">
 

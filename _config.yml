@@ -1,8 +1,13 @@
 title: Ryoma Otsuka
+description:
+baseurl: "/"
+url: "https://ryoma-otsuka.github.io"
+theme: jekyll-theme-primer
+
 markdown: GFM
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      custom_css: "/assets/css/style.css"
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       custom_css: "/assets/css/style.css"

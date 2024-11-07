@@ -1,7 +1,12 @@
-# <span class="blue-text">大塚 亮真</span>
+---
+layout: default
+title: Home
+css: index.css
+---
+
+## <span class="blue-text">大塚 亮真</span>
 
 <img src="/images/icons/dokudami_gorilla_lightblue_square.png" width="200">
-
 バイオロギングと機械学習
 
 - [Publications](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=ja)
