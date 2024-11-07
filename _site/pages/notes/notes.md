@@ -1,9 +1,0 @@
-# Notes
-- [git](git.md)
-- [docker](docker.md)
-- [k8s](k8s.md)
-- [linux](linux.md)
-- [env](env.md)
-- [colors](colors.md) 
-- [writing](writing.md)
-- [latex](latex.md) 
