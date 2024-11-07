@@ -1,2 +1,8 @@
 title: Ryoma Otsuka
 markdown: GFM
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      custom_css: "/assets/css/style.css"

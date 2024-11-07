@@ -1,8 +1,13 @@
 /* Base style */
 body {
     font-family: Helvetica, sans-serif;
+    font-size: 16px;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+}
+
+.text-container {
+    padding: 20px;
 }
 
 /* red text */
@@ -13,4 +18,8 @@ body {
 /* blue text */
 .blue-text {
     color: #3498db;
+}
+
+h1, .site-title {
+    display: none;
 }
