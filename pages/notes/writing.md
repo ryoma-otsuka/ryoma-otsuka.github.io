@@ -1,3 +1,28 @@
+---
+layout: note
+permalink: /pages/notes/writing.md/
+---
+
+# Writing
+
+- [LaTex](#latex)
+- [Symbols](#symbols)
+
+<hr class="small-hr">
+
+## LaTex 
+
+### Templates
+- simple paper templates
+  - main + SI (for preprint)
+  - SI (for review or final version)     
+(SI: supporting or supplementary information)
+
+- CV templates
+  - TBA
+
+<hr class="small-hr">
+
 ## Symbols
 
 マイナス | 例 -1 

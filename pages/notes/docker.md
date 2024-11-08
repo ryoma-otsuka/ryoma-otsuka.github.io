@@ -1,6 +1,13 @@
+---
+layout: note
+permalink: /pages/notes/docker.md/
+---
+
 # Docker
 - [Basic](#basic)
 - [Container](#container)
+
+<hr class="small-hr">
 
 ## Basic
 
@@ -12,6 +19,7 @@ docker version
 docker image の確認 (-aオプションで全イメージを表示)
 ```
 docker images
+docker images -a
 docker image ls
 ```
 
@@ -24,6 +32,7 @@ docker image rm <image_name1> <image_name2> ...
 起動中のコンテナの確認（-a オプションで全コンテナを表示）
 ```
 docker ps
+docker ps -a
 ```
 
 各コンテナのDisk使用量を表示
@@ -31,16 +40,18 @@ docker ps
 docker system df -v
 ```
 
+<hr class="small-hr">
+
 ## Container
 
-### コンテナの起動（バックグラウンド実行）
-```docker-compose.yml```があるディレクトリにて実行  
--dオプションでバックグランド実行（デーモン）
+### docker-compose-up
+<span style="color: #56B4E9;">docker-compose.yml</span> があるディレクトリにて実行  
+<span style="color: #56B4E9;">-d</span> オプションでバックグランド実行（デーモン）
 ```
 docker-compose up -d
 ```
 
--fオプションで```docker-compose.yml``` のパスを指定
+<span style="color: #56B4E9;">-f</span> オプションで <span style="color: #56B4E9;">docker-compose.yml</span> のパスを指定
 ```
 docker compose -f </hoge/docker-compose.yml> up -d
 ```
@@ -48,8 +59,10 @@ docker compose -f </hoge/docker-compose.yml> up -d
 > [!NOTE]
 > 既にイメージが存在する場合はコンテナの作成から行う。定義ファイルに従って、コンテナ、ボリューム、ネットワークを構築していく。（実行するイメージが存在しない場合は、まずイメージを作成する。）
 
+<hr class="small-hr">
 
-### コンテナの作成・起動（ (pull) → create → start ）   
+### run
+コンテナの作成・起動 (pull) → create → start   
 ```
 docker run --name <container_name> -d <image_name>
 ```
@@ -61,14 +74,13 @@ docker run --name <container_name> -d <image_name>
 | -v <host_disk> <container_disk> | ボリュームをマウントする |  
 | -d | バックグランド実行 |
 
-
-
-### コンテナの停止と削除
+### stop
 コンテナの停止
 ```
 docker stop <container_name>
 ```
 
+### rm
 コンテナの削除
 ```
 docker rm <container_name>

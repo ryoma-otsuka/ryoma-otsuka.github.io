@@ -1,27 +1,38 @@
+---
+layout: note
+permalink: /pages/notes/k8s.md/
+---
+
 # k8s and k9s
 - [Links](#links)
 - [kubectl](#kubectl)
 - [k9s](#k9s)
+
+<hr class="small-hr">
 
 ## Links
 kubernetes (k8s): [https://kubernetes.io/ja/](https://kubernetes.io/ja/)  
 kubectl: [https://kubernetes.io/docs/reference/kubectl/](https://kubernetes.io/docs/reference/kubectl/)  
 k9s: [https://k9scli.io/](https://k9scli.io/)
 
-## kubectl
+<hr class="small-hr">
+
+## k8s
+### kubectl
 podの確認
 ```
 kubectl get pod
 ```
+
 podのlogを確認  
 ```
-
 kubectl logs --tail=20 [pod-name]
 ```
-| Option | Function |
-| :----- | :------- |
-| --tail=xx | 最新のxx件を表示   |
-| --f | リアルタイムフォロー |  
+
+オプション  
+<span style="color: #56B4E9;">--tail=xx</span>: 最新のxx件を表示  
+<span style="color: #56B4E9;">--f</span>: リアルタイムフォロー  
+  
 
 kubectl のヘルプ
 ```
@@ -33,11 +44,13 @@ Manifest Fileの実行
 kubectl apply -f yaml/ex00-dcl-xx-seed-0.yaml
 ```
 
-## tools
+### tools
 Manifest File の作成ツールの実行
 ```
 python cafe_toolkit.py -p ex00/params-xx.yaml -t ex00/ex00-dcl.yaml -s xx-seed-0
 ```
+
+<hr class="small-hr">
 
 ## k9s
 
@@ -70,6 +83,7 @@ k9sの終了
 ```
 :q
 ```
+
 | Shortcut key | Function |
 | :----- | :------- |
 | shift + s | STATUSでソート |

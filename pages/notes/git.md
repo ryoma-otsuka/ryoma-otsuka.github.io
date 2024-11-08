@@ -1,4 +1,13 @@
+---
+layout: note
+permalink: /pages/notes/git.md/
+---
+
 # Git & GitHub
+
+<hr class="small-hr">
+
+## Commands
 - [Commands](#commands)
 	- [Setup](#setup)
 	- [Log](#log)
@@ -8,9 +17,9 @@
 	- [Tag](#tag)
 	- [Others](#others)
 
-## Commands
+<hr class="small-hr">
 
-### Setup
+## Setup
 初期化（.gitの新規作成）    
 ```
 git init
@@ -47,6 +56,8 @@ git remote -v
 git remote set-url origin <new URL>
 ```
 
+<hr class="small-hr">
+
 ## Log
 現在のブランチの状態を確認
 ```
@@ -62,6 +73,8 @@ git log
 ```
 git log --oneline
 ```
+
+<hr class="small-hr">
 
 ## Branch
 ブランチの一覧を確認
@@ -88,6 +101,8 @@ git branch -m <old-branch-name> <new-banch-name>
 ```
 git branch -d <branch name>
 ```
+
+<hr class="small-hr">
 
 ## Dev
 現在のブランチの状態を確認
@@ -130,6 +145,8 @@ git merge <branch-name> -m "comment"
 git pull origin <branch-name>
 ```
 
+<hr class="small-hr">
+
 ## Cancell
 ステージした全ファイルをを元に戻す
 ```
@@ -151,6 +168,8 @@ git reset --soft HEAD^
 git push -f
 ```
 
+<hr class="small-hr">
+
 ## Tag
 タグの確認
 ```
@@ -166,6 +185,8 @@ git tag -a tag-name -m 'tag comment'
 ```
 git push origin tag-name
 ```
+
+<hr class="small-hr">
 
 ## Others
 ファイルの削除

@@ -1,6 +1,13 @@
+---
+layout: note
+permalink: /pages/notes/env.md/
+---
+
 # env
-- [venv](#venv)
-- [renv](#renv)
+- [venv](#venv) for Python
+- [renv](#renv) for R
+
+<hr class="small-hr">
 
 ## venv
 新しい仮想環境の作成（Pythonのバージョンは仮想環境作成時のローカルのものと同じになる
@@ -36,6 +43,7 @@ pip freeze
 pip freeze > requirements.txt
 ```
 
+<hr class="small-hr">
 
 ## renv
 開発環境の確認
