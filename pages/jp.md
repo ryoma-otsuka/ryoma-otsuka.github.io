@@ -10,8 +10,8 @@ permalink: /pages/jp.md/
 <div class="custom-spacing">   
 バイオロギングデータと機械学習を用いた動物の行動認識技術に関する研究と、AI搭載型多機能バイオロギングデバイスのソフトウェアの開発を行っています。
 </div>
-  
 <br>
+
 [CV (履歴書)](docs/cv/cv_en_jp.pdf)  
 <br>
 
@@ -19,9 +19,6 @@ permalink: /pages/jp.md/
 [Google Scholar profile](https://scholar.google.co.jp/citations?user=TzrgGqEAAAAJ&hl=jp)   
 <br>
 
-### Notes
-[git](pages/notes/git.md), [docker](pages/notes/docker.md), [k8s](pages/notes/k8s.md), [linux](pages/notes/linux.md), [env](pages/notes/env.md), [colors](pages/notes/colors.md), [writing](pages/notes/writing.md)
-<br>
 
 ### リンク
-[English](index.md)  
+[English](../index.md)  
