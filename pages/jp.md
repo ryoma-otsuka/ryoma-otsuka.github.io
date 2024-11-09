@@ -12,7 +12,7 @@ permalink: /pages/jp.md/
 </div>
 <br>
 
-[CV (履歴書)](docs/cv/cv_en_jp.pdf)  
+[CV (履歴書)](../docs/cv/cv_en_jp.pdf)  
 <br>
 
 ### 研究業績

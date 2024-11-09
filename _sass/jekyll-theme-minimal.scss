@@ -248,8 +248,14 @@ footer {
     width:auto;
   }
 
+  body {
+    word-wrap:break-word;
+    padding:70px !important;
+  }
+
   header {
-    padding-right:320px;
+    padding: 0px;
+    // padding-right:320px;
   }
 
   section {
@@ -270,9 +276,29 @@ footer {
   }
 }
 
+@media print, screen and (max-width: 834px) {
+  body {
+    word-wrap:break-word;
+    padding: 60px !important;
+  }
+
+  header {
+    padding:0;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+
+  pre, code {
+    word-wrap:normal;
+  }
+}
+
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
+    padding: 50px !important;
   }
 
   header {
@@ -290,7 +316,7 @@ footer {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding:20px !important;
   }
 
   .downloads {
