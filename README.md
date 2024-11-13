@@ -1,7 +1,12 @@
 # Memo
 
 ## Debug in Local Environment
+
+<div class="note">
+<strong>NOTE: </strong> 
 Just ignore warning message about @import when you do debugging on local environment. Changing @import to @use will remove the warning messages but destroy the style on GitHub pages.
+</div>
+
 
 初回のみ
 ```
