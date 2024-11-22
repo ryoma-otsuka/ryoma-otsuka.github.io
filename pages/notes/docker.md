@@ -25,8 +25,8 @@ docker image ls
 
 docker image の削除
 ```
-docker image rm <image_name>
-docker image rm <image_name1> <image_name2> ...
+docker image rm <image-name>
+docker image rm <image-name1> <image-name2> ...
 ```
 
 起動中のコンテナの確認（-a オプションで全コンテナを表示）
@@ -35,9 +35,31 @@ docker ps
 docker ps -a
 ```
 
+Dockerコンテナのターミナルを開く
+```
+docker exec -it <container-name> bash
+```
+
 各コンテナのDisk使用量を表示
 ```
 docker system df -v
+```
+
+Jupyter Lab (Notebook) のサーバーのパスワード変更
+（再設定後には再起動が必要）
+```
+jupyter lab password
+jupyter notebook password
+```
+
+Dockerコンテナの再起動
+```
+docker restart <container-name>
+```
+
+マウント
+```
+sudo mount -a
 ```
 
 <hr class="small-hr">
@@ -66,24 +88,24 @@ docker compose -f </hoge/docker-compose.yml> up -d
 ### run
 コンテナの作成・起動 (pull) → create → start   
 ```
-docker run --name <container_name> -d <image_name>
+docker run --name <container-name> -d <image-name>
 ```
 
 | Option | Function |
 | :----- | :------- |
-| --name <container_name> | 作成するコンテナの名前を指定 |
-| -p <host_port> <container_port> | ポート番号の指定 |  
-| -v <host_disk> <container_disk> | ボリュームをマウントする |  
+| --name <container-name> | 作成するコンテナの名前を指定 |
+| -p <host-port> <container-port> | ポート番号の指定 |  
+| -v <host-disk> <container-disk> | ボリュームをマウントする |  
 | -d | バックグランド実行 |
 
 ### stop
 コンテナの停止
 ```
-docker stop <container_name>
+docker stop <container-name>
 ```
 
 ### rm
 コンテナの削除
 ```
-docker rm <container_name>
+docker rm <container-name>
 ```
