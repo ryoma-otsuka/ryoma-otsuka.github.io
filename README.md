@@ -1,5 +1,17 @@
 # Memo
 
+
+## Install
+- Ruby https://www.ruby-lang.org/en/downloads/
+- Jekyll https://jekyllrb.com/docs/installation/
+```bash
+gem install jekyll bundler
+```
+
+```bash
+jekyll -v
+```
+
 ## Debug in Local Environment
 
 > [!NOTE]
