@@ -23,12 +23,6 @@ docker images -a
 docker image ls
 ```
 
-docker image の削除
-```
-docker image rm <image-name>
-docker image rm <image-name1> <image-name2> ...
-```
-
 起動中のコンテナの確認（-a オプションで全コンテナを表示）
 ```
 docker ps
@@ -50,11 +44,6 @@ Jupyter Lab (Notebook) のサーバーのパスワード変更
 ```
 jupyter lab password
 jupyter notebook password
-```
-
-Dockerコンテナの再起動
-```
-docker restart <container-name>
 ```
 
 マウント
@@ -98,14 +87,42 @@ docker run --name <container-name> -d <image-name>
 | -v <host-disk> <container-disk> | ボリュームをマウントする |  
 | -d | バックグランド実行 |
 
+
+### restert
+Dockerコンテナの再起動
+```
+docker restart <container-name>
+```
+
 ### stop
 コンテナの停止
 ```
 docker stop <container-name>
 ```
 
-### rm
-コンテナの削除
+## Remove
+
+docker image の削除
+```
+docker image rm <image-name>
+docker image rm <image-name1> <image-name2> ...
+```
+
+container の削除
 ```
 docker rm <container-name>
 ```
+
+使っていないdocker imagesの削除
+```
+docker image prune
+docker image prune -a
+```
+
+使っていないdocker imagesの削除
+```
+docker container prune
+docker container prune -a
+```
+
+
