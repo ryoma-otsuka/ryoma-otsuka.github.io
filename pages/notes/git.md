@@ -142,7 +142,7 @@ git merge <branch-name> -m "comment"
 
 ブランチを指定してプル （fetch + merge）
 ```
-git pull origin <branch-name>
+git pull origin <branch-name> -m "comment"
 ```
 
 <hr class="small-hr">
@@ -184,6 +184,16 @@ git tag -a tag-name -m 'tag comment'
 指定したtagをpush
 ```
 git push origin tag-name
+```
+
+ローカルのタグの削除
+```
+git tag -d tag-name
+```
+
+リモートのタグの削除
+```
+git push -d origin tag-name
 ```
 
 <hr class="small-hr">
