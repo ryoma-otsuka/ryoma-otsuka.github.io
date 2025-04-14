@@ -55,7 +55,7 @@ sudo mount -a
 
 ## Container
 
-### docker-compose up
+### コンテナをバックグラウンドで起動（ビルド含む）
 <span style="color: #56B4E9;">docker-compose.yaml</span> があるディレクトリにて実行  
 <span style="color: #56B4E9;">-d</span> オプションでバックグランド実行（デーモン）
 ```
@@ -74,7 +74,7 @@ docker-compose up -d
 
 <div class="note">
 <strong>NOTE: </strong>
-既にイメージが存在する場合はコンテナの作成から行う。定義ファイルに従って、コンテナ、ボリューム、ネットワークを構築していく。（実行するイメージが存在しない場合は、まずイメージを作成する。）
+Dockerイメージが存在しない場合は、まずイメージを作成する（ビルド）。既にイメージが存在する場合はコンテナの起動から行う。定義ファイルに従って、コンテナ、ボリューム、ネットワークを構築していく。
 </div>
 
 <hr class="small-hr">
