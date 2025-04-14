@@ -55,16 +55,21 @@ sudo mount -a
 
 ## Container
 
-### docker-compose-up
-<span style="color: #56B4E9;">docker-compose.yml</span> があるディレクトリにて実行  
+### docker-compose up
+<span style="color: #56B4E9;">docker-compose.yaml</span> があるディレクトリにて実行  
 <span style="color: #56B4E9;">-d</span> オプションでバックグランド実行（デーモン）
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
-<span style="color: #56B4E9;">-f</span> オプションで <span style="color: #56B4E9;">docker-compose.yml</span> のパスを指定
+<span style="color: #56B4E9;">-f</span> オプションで <span style="color: #56B4E9;">docker-compose.yaml</span> のパスを指定
 ```
-docker compose -f </hoge/docker-compose.yml> up -d
+docker compose -f </hoge/docker-compose.yaml> up -d
+```
+
+古いversionのDocker Composeでは  
+```
+docker-compose up -d
 ```
 
 <div class="note">
