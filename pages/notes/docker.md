@@ -29,6 +29,26 @@ docker ps
 docker ps -a
 ```
 
+情報を絞って表示
+```bash
+docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}\t{{.Ports}}"
+```
+
+エイリアスを追加
+```bash
+echo 'alias dps="docker ps --format \"table {{.ID}}\t{{.Names}}\t{{.Status}}\t{{.Ports}}\""' >> ~/.bashrc
+```
+
+設定を反映
+```bash
+source ~/.bashrc
+```
+
+使用
+```bash
+dps
+```
+
 Dockerコンテナのターミナルを開く
 ```
 docker exec -it <container-name> bash
@@ -106,6 +126,11 @@ docker stop <container-name>
 ```
 
 ## Remove
+
+（開発環境のリセット。環境構築中の試行錯誤段階で使う。）コンテナを停止し、 up で作成したコンテナ、ネットワーク、ボリューム、イメージを削除
+```bash
+docker compose down
+```
 
 docker image の削除
 ```
