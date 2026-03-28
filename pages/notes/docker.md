@@ -113,7 +113,7 @@ docker run --name <container-name> -d <image-name>
 | -d | バックグランド実行 |
 
 
-### restert
+### restart
 Dockerコンテナの再起動
 ```
 docker restart <container-name>
@@ -149,7 +149,7 @@ docker image prune
 docker image prune -a
 ```
 
-使っていないdocker imagesの削除
+使っていないdocker containersの削除
 ```
 docker container prune
 docker container prune -a

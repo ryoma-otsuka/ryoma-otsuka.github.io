@@ -10,7 +10,7 @@ permalink: /pages/notes/env.md/
 <hr class="small-hr">
 
 ## venv
-新しい仮想環境の作成（Pythonのバージョンは仮想環境作成時のローカルのものと同じになる
+新しい仮想環境の作成（Pythonのバージョンは仮想環境作成時のローカルのものと同じになる）
 ```
 python -m venv <venv-name>
 ```

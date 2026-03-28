@@ -31,7 +31,7 @@ kubectl logs --tail=20 [pod-name]
 
 オプション  
 <span style="color: #56B4E9;">--tail=xx</span>: 最新のxx件を表示  
-<span style="color: #56B4E9;">--f</span>: リアルタイムフォロー  
+<span style="color: #56B4E9;">-f</span>: リアルタイムフォロー  
   
 
 kubectl のヘルプ
@@ -57,7 +57,7 @@ python cafe_toolkit.py -p ex00/params-xx.yaml -t ex00/ex00-dcl.yaml -s xx-seed-0
 ### k9sの初期設定
 install
 ```
-sudo apt updatesudo apt-get install build-essential procps curl file git
+sudo apt update && sudo apt-get install build-essential procps curl file git
 ```
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

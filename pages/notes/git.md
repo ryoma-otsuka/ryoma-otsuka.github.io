@@ -13,7 +13,7 @@ permalink: /pages/notes/git.md/
 	- [Log](#log)
 	- [Branch](#branch)
 	- [Dev](#dev)
-	- [Cancell](#cancell)
+	- [Cancel](#cancel)
 	- [Tag](#tag)
 	- [Others](#others)
 
@@ -94,7 +94,7 @@ git branch <new-branch-name>
 
 ブランチ名の変更
 ```
-git branch -m <old-branch-name> <new-banch-name>
+git branch -m <old-branch-name> <new-branch-name>
 ```
 
 ブランチの削除
@@ -147,8 +147,8 @@ git pull origin <branch-name> -m "comment"
 
 <hr class="small-hr">
 
-## Cancell
-ステージした全ファイルをを元に戻す
+## Cancel
+ステージした全ファイルを元に戻す
 ```
 git restore --staged .
 ```
@@ -211,5 +211,5 @@ git mv <old_file> <new_file>
 
 ディレクトリ名を変更
 ```
-git mv <old_directory/> <new_direcotry/>
+git mv <old_directory/> <new_directory/>
 ```
